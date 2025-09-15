@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+
+            </div>
+            <div class="links">
+                <div class="link"><a href="./index.html">Home</a></div>
+                <div class="link"><a href="./Projects.html" target="_blank">Projects</a></div>
+                <div class="link"><a href="./Skills.html" target="_blank">Skills</a></div>
+                <div class="link contact-btn"><a href="./Contact.html" target="_blank">Contact</a></div>
+
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="./index.html">Home</a>
+                <a href="./Projects.html">Projects</a>
+                <a href="./Skills.html">Skills</a>
+                <a href="./Contact.html">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="image">
+                <img src="./photo.jpg" alt="" width="400px" height="500px">
+            </div>
+            <div class="content">
+                <h1>Hey I'm <span>Nithya</span></h1>
+                <div class="typewriter">I'm a <span></span></div>
+                <p> with highly skilled and motivated database professional with extensive experience in Oracle, PL/SQL,
+                    MySQL, and PostgreSQL. Proficient in Java, with foundational knowledge in Python and Unix. Committed
+                    to continuous learning and professional development to stay abreast of the latest technologies and
+                    best practices. Adopt at problem-solving and delivering efficient, high-quality solutions in dynamic
+                    environments.</p>
+                <div class="social-links">
+                    <a href="https://github.com/nithya1012" target="_blank"><i
+                            class="fa-brands fa-square-github"></i></a>
+                    <a href="https:/www.linkedin.com/in/nithya1012" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="btn">
+                    <a href="./Nithya_30038175.pdf" target="_blank" download="NithyaCV"><button>Download CV</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function hamburg() {
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(0px)"
+        }
+        function cancel() {
+            const navbar = document.querySelector(".cancel")
+            navbar.style.transform = "translateY(-500px)"
+        }
+    </script>
+</body>
+
+</html>

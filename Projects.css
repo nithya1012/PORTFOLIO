@@ -1,0 +1,29 @@
+.project-section {
+  background-color: white;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 800px;
+  border-radius: 18px;
+  box-shadow: 0 3px 18px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+.project-section h2 {
+  font-size: 23px;
+  color: #0078D4;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.project-section h3 {
+  font-size: 20px;
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+}
+.project-section p {
+  font-size: large;
+  color: #555;
+  margin-bottom: 15px;
+}
